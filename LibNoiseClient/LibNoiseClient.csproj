@@ -89,13 +89,13 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\LibNoise\LibNoise.csproj">
-      <Project>{031C8CFF-F147-44EA-B7E5-0A5644808A7E}</Project>
-      <Name>LibNoise</Name>
-    </ProjectReference>
+    <EmbeddedResource Include="EarthLookupTable.png" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="EarthLookupTable.png" />
+    <ProjectReference Include="..\LibNoise\LibNoise.csproj">
+      <Project>{52a4b88f-a2d8-4942-b690-4d676a4a57da}</Project>
+      <Name>LibNoise</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
